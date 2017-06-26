@@ -15,6 +15,8 @@
 		115340821EF3E1B200707153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115340801EF3E1B200707153 /* LaunchScreen.storyboard */; };
 		1153408D1EF3E1B200707153 /* CXSlideViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1153408C1EF3E1B200707153 /* CXSlideViewTests.m */; };
 		115340981EF3E1B200707153 /* CXSlideViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 115340971EF3E1B200707153 /* CXSlideViewUITests.m */; };
+		11CC32DD1EF765C500D7E743 /* CXSlideCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CC32DC1EF765C500D7E743 /* CXSlideCollectionViewCell.m */; };
+		11CC32E01EF7665400D7E743 /* CXSlideCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CC32DF1EF7665400D7E743 /* CXSlideCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		115340931EF3E1B200707153 /* CXSlideViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXSlideViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		115340971EF3E1B200707153 /* CXSlideViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXSlideViewUITests.m; sourceTree = "<group>"; };
 		115340991EF3E1B200707153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11CC32DB1EF765C500D7E743 /* CXSlideCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXSlideCollectionViewCell.h; sourceTree = "<group>"; };
+		11CC32DC1EF765C500D7E743 /* CXSlideCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXSlideCollectionViewCell.m; sourceTree = "<group>"; };
+		11CC32DE1EF7665400D7E743 /* CXSlideCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXSlideCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		11CC32DF1EF7665400D7E743 /* CXSlideCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXSlideCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				115340761EF3E1B200707153 /* AppDelegate.m */,
 				115340781EF3E1B200707153 /* ViewController.h */,
 				115340791EF3E1B200707153 /* ViewController.m */,
+				11CC32DB1EF765C500D7E743 /* CXSlideCollectionViewCell.h */,
+				11CC32DC1EF765C500D7E743 /* CXSlideCollectionViewCell.m */,
+				11CC32DE1EF7665400D7E743 /* CXSlideCollectionViewFlowLayout.h */,
+				11CC32DF1EF7665400D7E743 /* CXSlideCollectionViewFlowLayout.m */,
 				1153407B1EF3E1B200707153 /* Main.storyboard */,
 				1153407E1EF3E1B200707153 /* Assets.xcassets */,
 				115340801EF3E1B200707153 /* LaunchScreen.storyboard */,
@@ -274,8 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1153407A1EF3E1B200707153 /* ViewController.m in Sources */,
+				11CC32DD1EF765C500D7E743 /* CXSlideCollectionViewCell.m in Sources */,
 				115340771EF3E1B200707153 /* AppDelegate.m in Sources */,
 				115340741EF3E1B200707153 /* main.m in Sources */,
+				11CC32E01EF7665400D7E743 /* CXSlideCollectionViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +519,7 @@
 				1153409E1EF3E1B200707153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1153409F1EF3E1B200707153 /* Build configuration list for PBXNativeTarget "CXSlideViewTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				115340A11EF3E1B200707153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		115340A21EF3E1B200707153 /* Build configuration list for PBXNativeTarget "CXSlideViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				115340A41EF3E1B200707153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
